@@ -1,4 +1,6 @@
-﻿System.Console.Write("Enter your name: ");
+﻿
+
+System.Console.Write("Enter your name: ");
 string name = Console.ReadLine();
 string greeting = $"Hello, {name}";
 System.Console.WriteLine(greeting);
@@ -12,3 +14,6 @@ System.Console.WriteLine($"successfuly converted! {age}");
 int keschasAge = 3;
 int ageDifference = age - keschasAge;
 System.Console.WriteLine($"The difference between your and Kescha's age is {ageDifference}");
+
+
+
