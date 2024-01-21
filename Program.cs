@@ -1,6 +1,4 @@
-﻿
-
-System.Console.Write("Enter your name: ");
+﻿System.Console.Write("Enter your name: ");
 string name = Console.ReadLine();
 string greeting = $"Hello, {name}";
 System.Console.WriteLine(greeting);
